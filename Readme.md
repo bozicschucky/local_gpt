@@ -33,18 +33,14 @@ git clone https://github.com/yourusername/local-gpt-chat.git cd local-gpt-chat
 
 2. Create a virtual environment and activate it:
 ```
-
-3. Install the required packages:
+python -m venv venv
+source venv/bin/activate
 ```
-python -m venv .venv source .venv/bin/activate
-```
-
 
 3. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
-
 
 4. Set up environment variables:
 
