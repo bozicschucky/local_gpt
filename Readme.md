@@ -1,14 +1,14 @@
-# Local GPT Chat Application
+# Local GPT
 
-This project is a local chat application that uses a GPT model to interact with users. It allows users to upload PDF and image files, which are processed and used to enhance the chat experience. The application is built using Streamlit and integrates with a local GPT model using Ollama as the GPT model server.
+This project is a chat application that uses any GPT model provided by ollama. It allows users to upload PDF and image files and add those files to the chat context. The application is built using Streamlit and integrates with a local GPT model using Ollama as the GPT model server.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them:
+Packages to install:
 ```
 Python 3.8+
  Streamlit
@@ -27,7 +27,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/local-gpt-chat.git cd local-gpt-chat
+git clone https://github.com/bozicschucky/local-gpt-chat.git cd local-gpt-chat
 ```
 
 
@@ -77,7 +77,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourGitHubProfile](https://github.com/yourusername)
+* **Charles  ssekitto** - *Initial work* - [github_profile](https://github.com/bozicschucky)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
